@@ -1,0 +1,13 @@
+venv/
+.DS_Store
+spillover_model/data/raw/
+spillover_model/data/processed/
+spillover_model/data/external/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+.env
