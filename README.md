@@ -1,6 +1,20 @@
-# Pathology Genomics — Spillover Model
+# Stochastic Disease Spillover & Risk Simulation
 
-A machine learning project for modeling pathogen spillover risk using genomic sequence data.
+A computational modeling framework built in Python to simulate pathogen transmission across species interfaces. This project utilizes stochastic processes and compartmental modeling to identify environmental and genomic triggers for spillover events.
+
+## 🛠️ Technical Stack
+* **Language:** Python 3.9+
+* **Modeling:** Monte Carlo Simulations, Compartmental (SIR/SEIR) Modeling
+* **Data & Math:** NumPy, Pandas, SciKit-Learn
+* **Genomics:** Biopython (Sequence feature extraction)
+* **Visualization:** Matplotlib, Seaborn
+
+## 🚀 Key Features
+* **Stochastic Transmission Logic:** Implements random-walk variables to simulate unpredictable environmental shifts.
+* **Genomic Feature Extraction:** Processes sequence data to evaluate alignment between viral proteins and host receptors.
+* **Risk Heatmapping:** Generates predictive distributions for high-risk spillover "hotspots" based on integrated data streams.
+
+## 📁 Project Structure
 
 ## Project Structure
 
@@ -30,3 +44,9 @@ pip install pandas numpy scikit-learn biopython matplotlib seaborn tensorflow to
 ## Data
 
 Raw data files (including `sequences.csv`) are excluded from version control due to size. Place input files in `spillover_model/data/raw/`.
+
+## 📈 Active Development
+- [x] Initial stochastic SIR model implementation.
+- [x] Integration of **TimeTree API** for real-time human event density mapping.
+- [ ] **In Progress:** Refining the "Gathering Intensity" algorithm to weight transmission risk based on calendar event types.
+- [ ] **Next Steps:** Developing a dashboard to visualize spillover probability shifts in response to upcoming scheduled community events.
