@@ -44,9 +44,3 @@ pip install pandas numpy scikit-learn biopython matplotlib seaborn tensorflow to
 ## Data
 
 Raw data files (including `sequences.csv`) are excluded from version control due to size. Place input files in `spillover_model/data/raw/`.
-
-## 📈 Active Development
-- [x] Initial stochastic SIR model implementation.
-- [x] Integration of **TimeTree API** for real-time human event density mapping.
-- [ ] **In Progress:** Refining the "Gathering Intensity" algorithm to weight transmission risk based on calendar event types.
-- [ ] **Next Steps:** Developing a dashboard to visualize spillover probability shifts in response to upcoming scheduled community events.
